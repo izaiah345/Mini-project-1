@@ -1,18 +1,17 @@
 import javax.lang.model.util.ElementScanner6;
 
-class Main {
+class CheckMyAge {
   public static void main(String[] args) {
-    int age = (17);
-    int myBirthday = (september: 17);
-    int todaysDate = 0921;
+    int age = 17;
+    int myBirthday = 934;
+    int todaysDate = 921;
     
-    if (age == 17);
+    if (myBirthday == todaysDate)
     {
-    System.out.println(I am + myAge + years old.);
+    System.out.println("I am" + age + "years old.");
     }
-    else
-    {
-    System.out.println(I am still  + myAge + years old.); 
+    else {
+    System.out.println("I am still"  + age + "years old."); 
   }
  }
 }
