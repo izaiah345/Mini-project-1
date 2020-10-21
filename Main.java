@@ -7,7 +7,8 @@ class CheckMyAge {
     int todaysDate = 921;
     
     if (myBirthday == todaysDate)
-    {
+    {  
+      age = age + 1;
     System.out.println("I am" + age + "years old.");
     }
     else {
